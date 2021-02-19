@@ -1,0 +1,14 @@
+name: Clans
+version: 1.0-SNAPSHOT
+main: net.craftions.citybuild.clans.Clans
+api-version: 1.15
+commands:
+  clan:
+    usage: /<command> <help|create|leave|invite|manage|admin> [args...]
+    permission: craftions.citybuild.command.clan
+  clanchat:
+    usage: /<command> <message>
+    aliases:
+      - cc
+      - clanc
+      - cchat
